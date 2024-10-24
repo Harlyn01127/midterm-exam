@@ -16,7 +16,22 @@
         object-fit: cover;
     }
 </style>
+  <style>
+    .alert-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+</style>
 <body>
+   <div class="container mt-3">
+  <h2>Alerts</h2>
+  <p>Alerts are created with the .alert class, followed by a contextual color classes:</p>
+  <div class="alert alert-success">
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  </div> 
 <header>
     <div class="header">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -42,6 +57,7 @@
             </div>
         </nav>
     </div>
+  
   <script>
     const products = [
         {
